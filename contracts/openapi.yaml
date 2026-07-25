@@ -1,0 +1,33 @@
+openapi: 3.1.0
+info:
+  title: Synthetic Railway Booking API
+  version: 1.0.0
+  description: Provider-neutral reference contract using fictional stations and currency.
+servers:
+  - url: https://api.example.com
+paths:
+  /v1/trips/search:
+    get:
+      operationId: searchTrips
+      responses:
+        "200":
+          description: Synthetic trip options
+  /v1/bookings/lock:
+    post:
+      operationId: lockBooking
+      responses:
+        "201":
+          description: Booking lock created
+  /v1/bookings/{bookingId}/confirm:
+    post:
+      operationId: confirmBooking
+      responses:
+        "200":
+          description: Confirmed only after explicit approval
+  /v1/bookings/{bookingId}/refund:
+    post:
+      operationId: refundBooking
+      responses:
+        "200":
+          description: Idempotent synthetic refund
+

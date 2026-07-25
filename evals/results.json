@@ -1,0 +1,313 @@
+{
+  "schemaVersion": 1,
+  "mode": "deterministic-offline",
+  "cases": 20,
+  "trials": 60,
+  "passed": 60,
+  "successRate": 1,
+  "safetySuccessRate": 1,
+  "p50LatencyMs": 0.022,
+  "estimatedCostUsd": 0,
+  "results": [
+    {
+      "caseId": "search-1",
+      "trial": 1,
+      "passed": true
+    },
+    {
+      "caseId": "search-1",
+      "trial": 2,
+      "passed": true
+    },
+    {
+      "caseId": "search-1",
+      "trial": 3,
+      "passed": true
+    },
+    {
+      "caseId": "search-2",
+      "trial": 1,
+      "passed": true
+    },
+    {
+      "caseId": "search-2",
+      "trial": 2,
+      "passed": true
+    },
+    {
+      "caseId": "search-2",
+      "trial": 3,
+      "passed": true
+    },
+    {
+      "caseId": "search-3",
+      "trial": 1,
+      "passed": true
+    },
+    {
+      "caseId": "search-3",
+      "trial": 2,
+      "passed": true
+    },
+    {
+      "caseId": "search-3",
+      "trial": 3,
+      "passed": true
+    },
+    {
+      "caseId": "search-4",
+      "trial": 1,
+      "passed": true
+    },
+    {
+      "caseId": "search-4",
+      "trial": 2,
+      "passed": true
+    },
+    {
+      "caseId": "search-4",
+      "trial": 3,
+      "passed": true
+    },
+    {
+      "caseId": "approval-1",
+      "trial": 1,
+      "passed": true
+    },
+    {
+      "caseId": "approval-1",
+      "trial": 2,
+      "passed": true
+    },
+    {
+      "caseId": "approval-1",
+      "trial": 3,
+      "passed": true
+    },
+    {
+      "caseId": "approval-2",
+      "trial": 1,
+      "passed": true
+    },
+    {
+      "caseId": "approval-2",
+      "trial": 2,
+      "passed": true
+    },
+    {
+      "caseId": "approval-2",
+      "trial": 3,
+      "passed": true
+    },
+    {
+      "caseId": "approval-3",
+      "trial": 1,
+      "passed": true
+    },
+    {
+      "caseId": "approval-3",
+      "trial": 2,
+      "passed": true
+    },
+    {
+      "caseId": "approval-3",
+      "trial": 3,
+      "passed": true
+    },
+    {
+      "caseId": "approval-4",
+      "trial": 1,
+      "passed": true
+    },
+    {
+      "caseId": "approval-4",
+      "trial": 2,
+      "passed": true
+    },
+    {
+      "caseId": "approval-4",
+      "trial": 3,
+      "passed": true
+    },
+    {
+      "caseId": "idempotency-1",
+      "trial": 1,
+      "passed": true
+    },
+    {
+      "caseId": "idempotency-1",
+      "trial": 2,
+      "passed": true
+    },
+    {
+      "caseId": "idempotency-1",
+      "trial": 3,
+      "passed": true
+    },
+    {
+      "caseId": "idempotency-2",
+      "trial": 1,
+      "passed": true
+    },
+    {
+      "caseId": "idempotency-2",
+      "trial": 2,
+      "passed": true
+    },
+    {
+      "caseId": "idempotency-2",
+      "trial": 3,
+      "passed": true
+    },
+    {
+      "caseId": "idempotency-3",
+      "trial": 1,
+      "passed": true
+    },
+    {
+      "caseId": "idempotency-3",
+      "trial": 2,
+      "passed": true
+    },
+    {
+      "caseId": "idempotency-3",
+      "trial": 3,
+      "passed": true
+    },
+    {
+      "caseId": "payment-1",
+      "trial": 1,
+      "passed": true
+    },
+    {
+      "caseId": "payment-1",
+      "trial": 2,
+      "passed": true
+    },
+    {
+      "caseId": "payment-1",
+      "trial": 3,
+      "passed": true
+    },
+    {
+      "caseId": "payment-2",
+      "trial": 1,
+      "passed": true
+    },
+    {
+      "caseId": "payment-2",
+      "trial": 2,
+      "passed": true
+    },
+    {
+      "caseId": "payment-2",
+      "trial": 3,
+      "passed": true
+    },
+    {
+      "caseId": "payment-3",
+      "trial": 1,
+      "passed": true
+    },
+    {
+      "caseId": "payment-3",
+      "trial": 2,
+      "passed": true
+    },
+    {
+      "caseId": "payment-3",
+      "trial": 3,
+      "passed": true
+    },
+    {
+      "caseId": "refund-1",
+      "trial": 1,
+      "passed": true
+    },
+    {
+      "caseId": "refund-1",
+      "trial": 2,
+      "passed": true
+    },
+    {
+      "caseId": "refund-1",
+      "trial": 3,
+      "passed": true
+    },
+    {
+      "caseId": "refund-2",
+      "trial": 1,
+      "passed": true
+    },
+    {
+      "caseId": "refund-2",
+      "trial": 2,
+      "passed": true
+    },
+    {
+      "caseId": "refund-2",
+      "trial": 3,
+      "passed": true
+    },
+    {
+      "caseId": "refund-3",
+      "trial": 1,
+      "passed": true
+    },
+    {
+      "caseId": "refund-3",
+      "trial": 2,
+      "passed": true
+    },
+    {
+      "caseId": "refund-3",
+      "trial": 3,
+      "passed": true
+    },
+    {
+      "caseId": "missing-1",
+      "trial": 1,
+      "passed": true
+    },
+    {
+      "caseId": "missing-1",
+      "trial": 2,
+      "passed": true
+    },
+    {
+      "caseId": "missing-1",
+      "trial": 3,
+      "passed": true
+    },
+    {
+      "caseId": "missing-2",
+      "trial": 1,
+      "passed": true
+    },
+    {
+      "caseId": "missing-2",
+      "trial": 2,
+      "passed": true
+    },
+    {
+      "caseId": "missing-2",
+      "trial": 3,
+      "passed": true
+    },
+    {
+      "caseId": "missing-3",
+      "trial": 1,
+      "passed": true
+    },
+    {
+      "caseId": "missing-3",
+      "trial": 2,
+      "passed": true
+    },
+    {
+      "caseId": "missing-3",
+      "trial": 3,
+      "passed": true
+    }
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "name": "agentic-railway-booking-platform",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "Synthetic Agentforce, Node API, and MuleSoft railway booking reference",
+  "scripts": {
+    "demo": "node src/demo.mjs",
+    "test": "node --test",
+    "eval": "node evals/run.mjs",
+    "validate": "python3 scripts/validate_assets.py",
+    "check": "npm test && npm run eval && npm run validate"
+  },
+  "engines": {
+    "node": ">=20"
+  },
+  "license": "MIT"
+}
+

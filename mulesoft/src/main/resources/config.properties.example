@@ -1,0 +1,5 @@
+rail.api.host=api.example.com
+rail.api.port=443
+secure::rail.api.clientId=
+secure::rail.api.clientSecret=
+
